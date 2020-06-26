@@ -1,0 +1,112 @@
+body {
+    width: 100;
+    background-color: black;
+	color:white;
+}
+ul#nav_menu {
+    list-style-type: none;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #000000;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+}
+li.topnavbar {
+    display: inline-block;
+    padding: 15px;
+}
+li h1 {
+    color: #FE9323;
+	font-family: 'Aclonica', sans-serif;
+	font-size: 32px;
+}
+.topnavbar a {
+    color: #C3D898;
+    text-decoration: none;
+}
+.topnavbar a:hover {
+    background-color: #654F6F;
+}
+#header_logo {
+    float: left;
+}
+div {
+    left: 0;
+}
+#section-one {
+    height: 350px;
+    padding: 10px;
+    text-align: center; 
+    font-family: 'Amaranth', sans-serif;   
+}
+#section-one h1 {
+    font-size: 50px;
+}
+#section-one p {
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    vertical-align: middle;
+    border-spacing: 10px;
+}
+th {
+    height: 75px;
+    font-size: 60px;
+}
+
+td {
+    margin: 5px;
+    padding: 10px 0px;
+    width: 25%;
+    text-align: center;
+}
+#january th {
+    color: #e2856e;
+}
+#january td {
+    background-color: #e2856e;
+}
+img.photos {
+    margin: 0;
+    padding: 0;
+}
+td.labels {
+    color: #0e4749;
+    font-weight: bold;
+}
+.labels a {
+    color: #0e4749;
+}
+.labels a:hover {
+    background-color: #efe7da;
+}
+#february th {
+    color: #50b2c0;
+}
+#february td {
+    background-color: #50b2c0;
+}
+#march th {
+    color: #b7990d;
+}
+#march td {
+    background-color: #b7990d;
+}
+footer {
+	background-color: black;
+	color: #C3D898;
+	text-align: center;
+	height: 80px;
+}
+.footernav li{
+	list-style-type: none;
+	font-weight: bold;
+	display: inline;
+	padding: 40px;
+}
